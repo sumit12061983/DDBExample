@@ -22,6 +22,11 @@ dependencies {
     testCompile "com.amazonaws:DynamoDBLocal:1.+"
     //SQLite4Java, required by local DynamoDB
     testCompile group: 'com.almworks.sqlite4java', name: 'sqlite4java', version: '1.0.392'
+
+    //Local DynamoDB
+    compile "com.amazonaws:DynamoDBLocal:1.+"
+    //SQLite4Java, required by local DynamoDB
+    compile group: 'com.almworks.sqlite4java', name: 'sqlite4java', version: '1.0.392'
 }
 
 //Copy SQLite4Java dynamic libs
